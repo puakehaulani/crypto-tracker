@@ -6,8 +6,15 @@ import Spinner from 'react-native-loading-spinner-overlay'
 import FetchCoinData from './../Actions/FetchCoinData'
 import CoinCard from "./CoinCard"
 
+const styles = StyleSheet.create({
+    contentContainer: {
+        paddingBottom: 100,
+        paddingTop: 55
+    }
+})
+
 class CryptoContainer extends Component {
-    componentWillMount() {
+    componentDidMount() {
         this.props.FetchCoinData()
     }
     renderCoinCards() {
@@ -44,13 +51,6 @@ class CryptoContainer extends Component {
                 {this.renderCoinCards()}
             </ScrollView>
         )
-    }
-}
-
-const styles = {
-    contentContainer: {
-        paddingBottom: 100,
-        paddingTop: 55
     }
 }
 

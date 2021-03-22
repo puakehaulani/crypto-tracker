@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text, StyleSheet, Image } from 'react-native'
 import { images } from '../Utils/CoinIcons'
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
     container: {
         display: "flex",
         marginBottom: 20,
