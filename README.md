@@ -44,3 +44,4 @@ This project can be run from a web browser or the Expo client app. You may find 
 - Find out more about developing apps and websites: [Guides](https://docs.expo.io/guides/).
 
 - Made following Bryan Ellis's udemy tutorial ["Intro to React Native Build a Cryptocurrency Tracker" ](https://www.udemy.com/course/ultimate-react-native-with-firebase/learn/lecture/15435554#overview)
+  Update: i do not recommend following this tutorial, it does not explain what is happening and due to the order it is built you are not able to render it as you go, so debugging is really challenging
